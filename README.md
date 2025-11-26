@@ -9,7 +9,7 @@ El resultado es un sistema flexible, extensible y modular, capaz de construir me
 
 ---
 
-﻿## Como descargar el programa
+## Como descargar el programa
 
 Abre una consola en la ruta que quiera descargar el programa y ejecute
 ```bash
@@ -34,8 +34,9 @@ dotnet bin/Debug/net8.0/TuProyecto.dll
 >
 > en la ruta `dotnet bin/Debug/net8.0/TuProyecto.dll` sustituya `/net.8.0/` con la version de .net instalada en su maquina.
 
-> ![IMPORTANT]
->
+
+> [!IMPORTANT]  
+> 
 > La version de **dotnet** debe ser mayor a `.net.7.0`.
 
 ---
