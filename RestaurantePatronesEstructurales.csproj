@@ -43,8 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="descuento\Descuento2x1.cs" />
+    <Compile Include="descuento\DescuentoCombo.cs" />
+    <Compile Include="descuento\DescuentoPorcentaje.cs" />
+    <Compile Include="descuento\DescuentoStrategy.cs" />
+    <Compile Include="menu\MenuCategory.cs" />
+    <Compile Include="menu\MenuComponent.cs" />
+    <Compile Include="menu\MenuItem.cs" />
+    <Compile Include="menu\MenuProxy.cs" />
+    <Compile Include="pedido\PedidoEstandar.cs" />
+    <Compile Include="pedido\PedidoTemplate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usuario\Autenticador.cs" />
+    <Compile Include="pedido\PedidoVIP.cs" />
+    <Compile Include="usuario\Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

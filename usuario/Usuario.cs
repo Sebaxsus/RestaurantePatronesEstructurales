@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace RestaurantePatronesEstructurales.usuario
 {
-    internal class Usuario
+    public class Usuario
     {
+        public string Nombre { get; set; }
+        public bool IsVip { get; set; } = false;
+        public Usuario(string nombre, bool vip = false) { Nombre = nombre; IsVip = vip; }
     }
 }
