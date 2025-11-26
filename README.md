@@ -9,6 +9,37 @@ El resultado es un sistema flexible, extensible y modular, capaz de construir me
 
 ---
 
+﻿## Como descargar el programa
+
+Abre una consola en la ruta que quiera descargar el programa y ejecute
+```bash
+git clone https://github.com/Sebaxsus/RestaurantePatronesEstructurales.git
+```
+
+## Como ejecutar el Programa
+
+```bash
+cd RestaurantePatronesEstructurales
+dotnet run
+```
+
+## Como compilar el programa
+
+```bash
+dotnet build
+dotnet bin/Debug/net8.0/TuProyecto.dll
+```
+
+> [!NOTE]
+>
+> en la ruta `dotnet bin/Debug/net8.0/TuProyecto.dll` sustituya `/net.8.0/` con la version de .net instalada en su maquina.
+
+> ![IMPORTANT]
+>
+> La version de **dotnet** debe ser mayor a `.net.7.0`.
+
+---
+
 ## Características Principales
 
 - **Menú Jerárquico (Composite)**:
